@@ -1,10 +1,11 @@
 <?php
-$token = $_COOKIE['Token']
-function isValid ($token) {return true;}
-if (isValid($token))
-		echo 'Half Life 3';
+$token = $_COOKIE['Token'];
+// echo $token;
+function isvalid ($token) {return true;}
+if (isvalid($token))
+		echo 'half life 3';
 	else
-		echo 'Forbidden';
+		echo 'forbidden';
 		
 		
 ?>
